@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'Thewitcher';
+    src:url('../../assets/fonts/Thewitcher-jnOj.ttf')
+}
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    z-index: 2222;
+}
+.Header-bar{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header-bar ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.Header-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Thewitcher';
+    font-size: 20px;
+
+}
+
+.colorMenuScroll{
+    background: linear-gradient(#ad212a, #470e11);
+    border-bottom: 1px solid white;
+
+}
