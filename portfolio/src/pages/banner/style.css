@@ -8,7 +8,7 @@
   background-size: cover;
 }
 body {
-  background-color: gray;
+  background-color: rgb(150, 150, 150);
 } /*temporal*/
 
 .banner-Container {
@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 95%;
-  height: 800px;
+  height: 820px;
 }
 
 .box-CSig {
@@ -77,28 +77,28 @@ body {
 
 .InformationBanner {
   text-align: start;
-  width: 45%;
+  width: 50%;
   margin-left: 20px;
 }
 .InformationBanner h1 {
   font-size: 80px;
   margin: 0px;
   font-weight: 900;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  background: linear-gradient(white, #000000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .InformationBanner h1 span {
   background-image: linear-gradient(#ad212a, #470e11);
   color: transparent;
   background-clip: text;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 .InformationBanner h3 {
   font-size: 30px;
   margin: 0;
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: black;
+  background: linear-gradient(white, #8a8a8ac2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .InformationBanner h1,
 .InformationBanner h3 {
@@ -116,4 +116,89 @@ body {
 .btn-Container-banner {
   width: 100%;
   margin-top: 20px;
+}
+
+/*signs */
+
+.sign {
+  position: relative;
+  cursor: pointer;
+}
+
+.sign-right {
+  right: 26px;
+}
+
+.sign-left {
+  left: 26px;
+}
+
+.sign-central {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.aard:hover {
+  background-color: rgba(0, 128, 160, 0.445);
+}
+
+.igni:hover {
+  /*the best sign*/
+  background-color: rgba(160, 0, 0, 0.445);
+}
+
+.axii:hover {
+  background-color: rgba(16, 90, 1, 0.445);
+}
+
+.yrden:hover {
+  background-color: rgba(75, 0, 62, 0.445);
+}
+
+.quen:hover {
+  background-color: rgba(90, 81, 1, 0.445);
+}
+
+@media (max-width: 1024px) {
+  .Box-containerRunes {
+    margin: -5px;
+  }
+  .sign-left {
+    left: 5px;
+  }
+  .sign-right {
+    right: 5px;
+  }
+  .box-CSig hr {
+    height: 715px;
+    margin-top: 15px;
+  }
+  .InformationBanner {
+    width: 80%;
+  }
+}
+@media (max-width: 556px) {
+  .InformationBanner {
+    width: 90%;
+  }
+  .box-CSig{
+    margin-top: 36px;
+  }
+  .banner-Container{
+    background-position: center;
+  }
+  .btn-Container-banner{
+    display: flex;
+    gap: 10px;
+    flex-direction: column !important;
+  }
+  .btn-banner.btn-type2{
+    margin: 0px !important;
+  }
+  .btn-type2, .btn-type1{
+    width: 76% !important;
+  }
+  .InformationBanner h1{
+    font-size: 55px;
+  }
 }

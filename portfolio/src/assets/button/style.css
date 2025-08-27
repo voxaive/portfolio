@@ -11,18 +11,20 @@
   height: 50px;
   font-size: 20px;
   cursor: pointer;
+  border: none;
   clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
 
 .btn-type2 {
-  border: 1px solid #661318;
   background: white;
   font-size: 20px;
   color: #661318;
   font-family: "Thewitcher";
   cursor: pointer;
+  border: none;
   width: 40%;
   height: 50px;
   margin-left: 20px;
   clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
+

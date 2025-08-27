@@ -7,3 +7,9 @@
 body{
   margin: 0px;
 }
+
+.shadowtec{
+  border-image:10;
+  filter: drop-shadow(0 0 1px white);
+}
+
