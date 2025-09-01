@@ -355,6 +355,12 @@
     max-width: 100% !important;
   }
 }
+@media (max-width: 425px) {
+  .box-about-me-skills {
+    overflow-y: auto;
+    max-height: 300px;
+  }
+}
 @media (max-width: 370px) {
   .Study-circle {
     width: 300px !important;

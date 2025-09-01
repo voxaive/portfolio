@@ -52,12 +52,15 @@
   .Job-list {
     flex-direction: column;
   }
+  .jobs {
+    padding: 22% 0% 22% 0%;
+  }
   .Job-1 .box-about-me {
     width: auto;
   }
 }
 @media (max-width: 420px) {
   .jobs {
-    padding: 30% 0% 30% 0%;
+    padding: 35% 0% 35% 0%;
   }
 }
