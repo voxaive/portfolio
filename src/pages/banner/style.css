@@ -181,24 +181,25 @@ body {
   .InformationBanner {
     width: 90%;
   }
-  .box-CSig{
+  .box-CSig {
     margin-top: 36px;
   }
-  .banner-Container{
+  .banner-Container {
     background-position: center;
   }
-  .btn-Container-banner{
+  .btn-Container-banner {
     display: flex;
     gap: 10px;
     flex-direction: column !important;
   }
-  .btn-banner.btn-type2{
+  .btn-banner.btn-type2 {
     margin: 0px !important;
   }
-  .btn-type2, .btn-type1{
+  .btn-type2,
+  .btn-type1 {
     width: 76% !important;
   }
-  .InformationBanner h1{
+  .InformationBanner h1 {
     font-size: 55px;
   }
 }

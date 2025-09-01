@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 import './style.css'
-
+import logo from '../../images/LogoLau.png'
 const HeaderBar: React.FC = () => {
   const [MenuOp, setMenuOpen] = useState(false)
   function MenuOpen(){
@@ -23,7 +23,7 @@ const HeaderBar: React.FC = () => {
   <>
     <header>
         <div className='Header-bar'>
-            <img className='logo-image' src="" alt="" />
+            <img className='logo-image' src={logo} alt="Logo" />
             <ul>
                 <li><a href="#about-me">SOBRE MI</a></li>
                 <li><a href="#experiencie">EXPERIENCIA LABORAL</a></li>

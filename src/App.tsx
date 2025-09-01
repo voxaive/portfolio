@@ -2,6 +2,7 @@
 import './App.css'
 import Banner from './pages/banner/banner.tsx'
 import About from './pages/about/about.tsx'
+import Jobs from './pages/Jobs/Jobs.tsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -13,6 +14,7 @@ function App() {
     <>
       <Banner />
       <About />
+      <Jobs />
     </>
   )
 }
