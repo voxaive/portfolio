@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 import './style.css'
 //tech
 //software
@@ -15,7 +15,7 @@ import css from '../../images/tec/CSS.svg'
 import bootstrap from '../../images/tec/Bootstrap_logo.svg'
 //database
 import postgreSQL from '../../images/tec/Postgresql_elephant.svg'
-import mysql from '../../images/tec/MySQL-logo.svg'
+//import mysql from '../../images/tec/MySQL-logo.svg'
 //techEnd
 import circle from '../../images/Circle_tech.png'
 import Cicle_t from '../../assets/circle-t/cicle-t.tsx';
@@ -49,9 +49,10 @@ const Jobs: React.FC = () => {
                       <div className='tecStudy'>
                         <Cicle_t tech={figma} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={express} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
-                        <Cicle_t tech={nodeIcon} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
+                        <Cicle_t tech={postgreSQL} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={html} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={nodeIcon} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
+                        <Cicle_t tech={drawio} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={react} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={js} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                       </div>
@@ -67,9 +68,10 @@ const Jobs: React.FC = () => {
                       <div className='tecStudy'>
                         <Cicle_t tech={figma} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={express} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
-                        <Cicle_t tech={nodeIcon} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
+                        <Cicle_t tech={postgreSQL} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={html} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={nodeIcon} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
+                        <Cicle_t tech={drawio} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={bootstrap} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                         <Cicle_t tech={js} url={circle} isSelected={selected === ""} onClick={() => void("n")}/>
                       </div>
